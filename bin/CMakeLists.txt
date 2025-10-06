@@ -1,3 +1,4 @@
+message(FATAL_ERROR "wtf")
 get_property(triton_libs GLOBAL PROPERTY TRITON_LIBS)
 
 add_llvm_executable(triton-opt triton-opt.cpp PARTIAL_SOURCES_INTENDED)
